@@ -26,9 +26,9 @@ class PasswordActivity : AppCompatActivity() {
                     val lastName = intent.getStringExtra(LAST_NAME_EXTRA)
                     val password = binding.passwordEt.editText?.text
 
-                    intent.putExtra(FIRST_NAME_EXTRA, firstName)
-                    intent.putExtra(LAST_NAME_EXTRA, lastName)
-                    intent.putExtra(PASSWORD_EXTRA, password)
+                    it.putExtra(FIRST_NAME_EXTRA, firstName)
+                    it.putExtra(LAST_NAME_EXTRA, lastName)
+                    it.putExtra(PASSWORD_EXTRA, password)
                 }
 
                 startActivity(intent)

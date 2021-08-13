@@ -21,12 +21,12 @@ class SignUpCompleteActivity : AppCompatActivity() {
             val firstName = intent.getStringExtra(FIRST_NAME_EXTRA)
             val lastName = intent.getStringExtra(LAST_NAME_EXTRA)
             val email = intent.getStringExtra(EMAIL_EXTRA)
-            val password = intent.getStringExtra(PASSWORD_EXTRA)
+            //val password = intent.getStringExtra(PASSWORD_EXTRA)
 
             nameTv.text = firstName
             lastNameTv.text = lastName
             emailTv.text = email
-            passwordTv.text = password
+            //passwordTv.text = password
         }
     }
 }
