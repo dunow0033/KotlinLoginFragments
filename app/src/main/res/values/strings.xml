@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ActivityIntents_August9</string>
+    <string name="next">Next</string>
+    <string name="enter_your_name">Enter your name!</string>
+    <string name="enter_name">Enter Your Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_password">Enter Your Password</string>
+    <string name="enter_email">Enter Your Email</string>
+</resources>
