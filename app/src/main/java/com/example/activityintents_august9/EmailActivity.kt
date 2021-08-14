@@ -28,7 +28,7 @@ class EmailActivity : AppCompatActivity() {
                     val firstName = intent.getStringExtra(FIRST_NAME_EXTRA)
                     val lastName = intent.getStringExtra(LAST_NAME_EXTRA)
                     val password = intent.getStringExtra(PASSWORD_EXTRA)
-                    val email = binding.emailEt.editText?.text
+                    val email = binding.emailEt.editText?.text.toString()
 
                     it.putExtra(FIRST_NAME_EXTRA, firstName)
                     it.putExtra(LAST_NAME_EXTRA, lastName)
